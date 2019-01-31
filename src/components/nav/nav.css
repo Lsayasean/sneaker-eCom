@@ -1,0 +1,22 @@
+.nav-container{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    background-color: white;
+    justify-content: space-around;
+    align-items: center;
+    border-bottom: 2px solid black;
+}
+
+.link{
+    color: black;
+}
+
+.nav-btn{
+    border-style: none;
+    font-size: 30px;
+}
+.nav-btn:hover{
+    border-style: none;
+    font-size: 35px;
+}

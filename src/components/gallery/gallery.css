@@ -1,0 +1,13 @@
+.gallery-main{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.gal-title{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 50px;
+}
