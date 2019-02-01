@@ -10,9 +10,14 @@ class Nav extends Component {
         if(path !== '/'){
             return (
                 <div className='nav-container'>
-                <div>
+                <div className='logo'>
+                <i class="far fa-flushed"></i>
+                </div>
+                <div className='nav-links'>
 
                     <Link to='/gallery' className='link' ><button className='nav-btn'>Gallery</button></Link>
+                    <Link to='/about' className='link' ><button className='nav-btn'>About</button></Link>
+                    <Link to='/gallery' className='link' ><button className='nav-btn'>Stencils</button></Link>
                 </div>
                 </div>
             )

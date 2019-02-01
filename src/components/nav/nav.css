@@ -10,6 +10,7 @@
 
 .link{
     color: black;
+    border-style: none;
 }
 
 .nav-btn{
@@ -19,4 +20,14 @@
 .nav-btn:hover{
     border-style: none;
     font-size: 35px;
+}
+
+.logo{
+    font-size: 30px;
+    color: red;
+}
+
+.nav-links{
+    display: flex;
+    justify-content: space-between;
 }

@@ -1,0 +1,19 @@
+.about.cont{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.info-cont{
+    width: 50%;
+}
+
+.info{
+    margin-top: 20px;
+    text-align: center;
+    width: 100%;
+    font-size: 45px;
+
+}
